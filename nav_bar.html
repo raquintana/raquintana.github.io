@@ -9,7 +9,7 @@
     (function(){
         function submitName(e) {
             var name = document.getElementById('name').value;
-            ajax('msg.php', {"name": name}, function(resp) {
+            ajax('nav_bar.php', {"name": name}, function(resp) {
                 var container = document.getElementById('container');
                 while (container.hasChildNodes()) container.removeChild(container.firstChild);
                 container.appendChild(document.createTextNode(resp.msg));

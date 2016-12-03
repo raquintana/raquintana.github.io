@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: red url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: red;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
